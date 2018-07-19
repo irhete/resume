@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="{{ site.baseurl }}static/css/skeleton.css">
     <link rel="stylesheet" href="{{ site.baseurl }}static/css/layout.css">
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/jpswalsh/academicons/master/css/academicons.min.css">
 
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
@@ -41,11 +42,16 @@
         <p>
             <a href="{{ site.website_full }}">{{ site.website }}</a><br/>
         </p>
-        <p>
+        <p id="email">
             <a href="{{ site.email_full }}">{{ site.email }}</a><br/>
-            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> /
+            <a href="https://github.com/{{ site.github }}"><i class="fa fa-github"></i> Github</a> <br>
+
             {% if site.linkedin %}
-	  <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i> Linkedin</a>
+	  <a href="http://linkedin.com/in/{{ site.linkedin }}"><i class="fa fa-linkedin"></i> Linkedin</a> <br>
+    {% endif %} 
+
+        {% if site.googlescholar %}
+	  <a href="https://scholar.google.com/citations?user={{ site.googlescholar }}"><i class="ai ai-google-scholar"></i> Google Scholar</a>
     {% endif %}
         </p>
     </header>

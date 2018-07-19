@@ -13,7 +13,7 @@ author: Fábio Madeira
 # edit this section with your information
 # jekyller.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: /resume/
+baseurl: "/"
 title: Irene Teinemaa's Resume
 name: Irene Teinemaa
 email: irene.teinemaa@gmail.com
@@ -22,6 +22,7 @@ website: irhete.github.io
 website_full: https://irhete.github.io
 github: irhete # username
 linkedin: ireneteinemaa
+googlescholar: UQZ22uQAAAAJ
 #tel: +44 0000 000000
 #tel_full: tel:+440000000000
 #google_maps: 'https://www.google.co.uk/maps/place/44+Perth+St,+Edinburgh,+Edinburgh+City+EH3+5BL'

@@ -57,6 +57,10 @@ header > h1 {
     margin-bottom: 20px;
 }
 
+#email {
+    font-size: 90%;
+}
+
 section {
     margin-bottom: 20px;
 }
@@ -141,4 +145,18 @@ em {
 footer p {
     margin-bottom: 10px;
     font-size: 10pt;
+}
+
+.inner {
+  height: 100px;
+  width: 100px;
+  display: inline
+}
+.inner img {
+  height: auto;
+  width: 100px;
+  display: none
+}
+.inner:hover img {
+  display: block;
 }
