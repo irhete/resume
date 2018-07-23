@@ -13,7 +13,7 @@ author: Fábio Madeira
 # edit this section with your information
 # jekyller.github.io - all contents run on /vitae/
 # for a normal use at the base of the server change it to "/"
-baseurl: /resume/
+baseurl: "/resume/"
 title: Irene Teinemaa's Resume
 name: Irene Teinemaa
 email: irene.teinemaa@gmail.com
@@ -31,7 +31,7 @@ address:
 #  postcode: EH3 5BL
   city: Tartu
   country: Estonia
-#google_analytics: UA-69300817-1
+google_analytics: UA-122643272-1
 
 # needed for travis-ci build
 exclude: [vendor]
