@@ -25,12 +25,12 @@ linkedin: ireneteinemaa
 googlescholar: UQZ22uQAAAAJ
 #tel: +44 0000 000000
 #tel_full: tel:+440000000000
-google_maps: 'https://goo.gl/maps/tRT4viQP4rQDaiKx8'
+google_maps: 'https://goo.gl/maps/7Q6VJerTgKJ4LfAT6'
 address:
 #  street: 44 Perth Street
 #  postcode: EH3 5BL
-  city: Amsterdam
-  country: The Netherlands
+  city: London
+  country: United Kingdom
 google_analytics: UA-122643272-1
 
 # needed for travis-ci build
